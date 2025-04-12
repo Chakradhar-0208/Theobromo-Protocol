@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+@font-face {
+    font-family: Geist;
+    src: url(../Fonts/Geist-Regular.woff2);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+}
+li p{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#BEA064;
+}
+li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:#BEA064;
+    font-size: 14px; 
+    font-weight: 600;
+}
+li a:hover{
+    color: #b9dad0;
+}
+#upper-header{
+    text-align: center;
+    color: #BEA067;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+nav{
+    height: 80px;
+    border: 1.5px solid rgb(169, 128, 42);
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 115px;
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    margin-top: 115px; /* Match the height of the header */
+}
+
+#first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px 0px;
+    /* width: 70vw; */
+}
+
+.title-heading{
+    font-size: 38px;
+    color: #a9802a;
+    padding-bottom: 20px;
+    margin-top :20px;
+    font-weight: 600;
+}
+ #first-section .info{
+    margin: 24px 420px 0px 420px;
+    max-width: 560px;
+    font-size: 15px;
+ }
+ .more-button{
+    margin: 50px 0px 30px;
+    background-color: #b2ddd3;
+    color: #a9802a;
+    border: 1px solid;
+    font-weight: 600;
+    height: 41px;
+    padding: 8px 30px;
+     border-radius:20px ;   
+ }
+.more-button:hover{
+    background-color: #a9802a;
+    color: #ffffff;
+ }
+
+#second-section{
+    background-color: #f6eae8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+
+
+#second-section .image-heading{
+    display: flex;
+    margin: 40px 0px;
+    padding: 20px 15px 0px ;
+    background-color: white;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+#second-section .image-heading .heading{
+
+    color: #A9802A;
+    background-color: white;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+
+}
+ .row-content{
+    padding: 40px 0px 0px;
+    display: flex;
+}
+
+.mini-title{
+    color: #a9802a;
+    font-size: 22px;
+    padding-bottom: 1px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.mini-desc{
+    font-size: 15px;
+    color: #282929;
+    padding-bottom: 50px;
+    text-align: center;
+    max-width:446px;
+    flex-wrap: wrap;
+}
+#first-section .left-content, #first-section .right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 498px;
+}
+
+
+
+
+#third-section{
+    display: flex;
+    max-width: 70vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    min-height: 768px;
+
+}
+#third-section .left-content, #third-section .left-content{
+    align-items: center;
+    
+
+}
+#third-section .title-heading{
+    /* font-size: 30px; */
+    margin: 0px 0px 25px;
+}
+#third-section .info{
+    margin: 0px 0px 45px;
+}
+
+#section1{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    background-size: cover;
+    background-image:url(	https://theobroma.in/cdn/shop/files/Collection-desktop.jpg?v=1654084131) ;
+}
+
+
+
+#section1 h2{
+    font-size: 48px;
+    color: #a2813a;
+    margin: 10px;
+}
+#last-section h2{
+    font-size: 48px;
+    color: #a2813a;
+    margin: 10px;
+}
+#section1 p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 835px;
+    margin: 10px 180px 0px 180px;
+}
+#last-section p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 835px;
+    margin: 30px 180px 0px 180px;
+}
+
+#last-section{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(105, 29%, 95%);
+    background-image:url(https://theobroma.in/cdn/shop/files/Likeourprod-theo-new1.jpg) ;
+}
+#select-sort{
+    padding: 10px;
+    border:1px solid #ccc;
+    font-size: 12px;
+    /* outline: 0.5px solid black; */
+}
+#section2{
+    width:70vw;
+    /* border :2px solid black; */
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pwd{
+    font-size: 13px;
+    margin: 10px 0px ;
+    font-weight: 300px;
+}
+#sort-button{
+    align-self: flex-end;
+    padding: 5px;
+    font-size: 13px;
+    color:beige
+}
+
+
+#side-option-bar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.option-heading{
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: rgb(169, 128, 42);
+    font-size: 14px;
+    
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    margin: 8px 0px;
+    font-size: 13px;
+    
+}
+.item:hover{
+    color:  rgb(169, 128, 42);
+}
+.items{
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 13px;
+    justify-content: space-around;
+}
+.items p:hover{
+    color:  rgb(169, 128, 42);
+    cursor: pointer;
+}
+
+.section2-content{
+    display: flex;
+    gap: 20px;
+
+}
+
+.main-content{
+    /* border: 1px solid black;  */
+    width: 100%;
+    display: flex;
+    gap:20px ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 33px 0px;
+    /* margin: auto; */
+
+}
+
+.item-card{
+    width:346px;
+    height: 437px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around ;
+}
+
+.item-card img{
+    object-fit: cover;  
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.item-card .classic {
+    width: 345px;
+    height: 345px;
+    
+    background-size: cover;
+    background-position: center;
+    transition: background 0.2s ease;
+}
+
+.item-card:hover .classic {
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-blend-mode: lighten; 
+    cursor: pointer;
+}
+
+.item-card #name{
+    margin: 10px 1px;
+    color:#a2823a ;
+    font-weight: 600;
+    text-align: center;
+}
+
+.last-div{
+    display: flex;
+    justify-content:center;
+}
+
+.last-div #button-cart{
+    background-color: #f4bcb4;
+    color: #a9802a;
+    padding: 2px 10px;
+    border: 0.95px solid rgb(169, 128, 42);
+    border-radius: 20px;
+}
+
+#order-online-button{
+    color: #A9802A;
+    background-color: #f4bcb4;
+    border: 0.95px solid rgb(169, 128, 42);
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin: 30px;
+    transition: all 0.3s ease;
+}
+footer{
+    background-color:#b8d9cf;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer div p{
+margin: 20px;
+}
+footer .footer-hover :hover{
+color: #A9802A;
+}
+footer div p span:hover{
+
+    color: #A9802A;
+}
+
+.social-platforms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.social-platforms div{
+    align-self:center ;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.social-platforms div:hover{
+    border: 1px solid #A9802A;
+
+}
+
+#email-gather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin: 20px; */
+    width: 80%;
+}
+
+#email {
+    padding: 10px;
+    font-size: 12px;
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #A9802A;
+    margin: auto;
+}
+
+#signup-btn {
+    background-color: transparent;
+    color: #A9802A;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid #A9802A;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    margin: auto;
+}
+#signup-btn:hover, #order-online-button:hover{
+    background-color: #a2823a;
+    color: white;
+   
+}
+
+.store-locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.store-locations p{
+    /* display: inline; */
+    font-size: 13px;
+
+}
+
+.last-div-footer{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .section2-content {
+      flex-direction: column;
+    }
+  
+    .main-content, #side-option-bar {
+      width: 100%;
+    }
+  
+    .item-card {
+      width: 100%;
+    }
+  
+    footer {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+#button-cart {
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+#button-cart:hover {
+    background-color: #a2823a;
+    
+    color: white;
+    cursor: pointer;
+}
+  
+

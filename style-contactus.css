@@ -1,0 +1,304 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+@font-face {
+    font-family: Geist;
+    src: url(../Fonts/Geist-Regular.woff2);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: 1.5px solid rgb(169, 128, 42);
+}
+
+nav ul{
+    list-style: none;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+}
+li p{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#BEA064;
+}
+li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:#BEA064;
+    font-size: 14px; 
+    font-weight: 600;
+}
+li a:hover{
+    color: #b9dad0;
+}
+#upper-header{
+    text-align: center;
+    color: #BEA067;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 115px;
+    background-color: white;
+}
+
+body{
+    background-color: hsl(105, 29%, 95%);
+}
+
+main {
+    background-image: url(https://theobroma.in/cdn/shop/files/Likeourprod-theo-new1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  10% 100%;
+    height: 120vh;
+    margin-top: 115px; /* Match the height of the header */
+}
+
+
+.contactus-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 60px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 115px;
+}
+.post-contactus-main-container{
+    display: flex;
+}
+
+.contactus-main-container h2{
+    color: #a2813a;
+    font-size: 38px;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 20px;
+}
+
+.contactus-main-container p{
+    color: #282929;
+    margin: 8px 0px 40px;
+}
+
+.left-forms{
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid hsl(42, 39%, 44%) ;
+    padding: 40px 80px;
+}
+
+.pre-input-structure-forms{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-structure-forms{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;    
+    margin:16px 0px 0px ;
+}
+
+
+.input-structure-forms input{
+    padding: 5px;
+    height: 41px;
+    margin-right: 10px;
+    width: 285px;
+    border: 1px solid #cdd2d7;
+}
+.input-structure-forms select{
+    height: 41px;
+    border: 1px solid #cdd2d7;
+    padding: 5px;
+    font-size:12px ;
+    width: 576px;
+}
+.input-structure-forms textarea{
+    border: 1px solid #cdd2d7;
+    padding: 5px;
+    font-size:12px ;
+    width:   576px;
+    max-width:  576px;
+    height: 180px;
+    
+}
+
+#attach-files-forms{
+    border: 1px solid #cdd2d7;
+    width: 576px;
+    
+}
+.input-structure-forms p{
+    padding: auto;
+    font-size:16px ;
+    font-weight: lighter;
+}
+.input-structure-forms label span{
+    color: #c94349;
+}
+
+
+.left-forms-submit-button span{
+    background-color: #b2ddd3;
+    padding: 6px 15px;
+    color: #A9802A;
+    border: 1px solid #a9802A !important;
+    border-radius: 20px;
+}
+
+.right-forms{
+    background-image: url(https://cdn.shopify.com/s/files/1/0521/3929/4884/files/Contact_Us_Page1.png?v=1615372266) ;
+    background-size: 182px 182px;
+    background-repeat: no-repeat;
+    width: 380px;
+    padding: 0px 50px;
+    background-position: top;
+    display: flex;
+    align-items: end;
+
+}
+
+.right-forms-content
+{
+    margin:0px 0px 50px ;
+    
+}
+
+.right-forms-content h3{
+    color: #A9802A;
+    font-size: 15px;
+}
+.right-forms-content div p{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 8px 0px !important;
+}
+
+.right-forms-low-content{
+    margin: 0px 0px 30px;
+}
+
+footer{
+    background-color:#b8d9cf;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer div p{
+margin: 20px;
+}
+footer .footer-hover :hover{
+color: #A9802A;
+}
+footer div p span:hover{
+
+    color: #A9802A;
+}
+
+.social-platforms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.social-platforms div{
+    align-self:center ;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.social-platforms div:hover{
+    border: 1px solid #A9802A;
+
+}
+
+#email-gather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin: 20px; */
+    width: 80%;
+}
+
+#email {
+    padding: 10px;
+    font-size: 12px;
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #A9802A;
+    margin: auto;
+}
+
+#signup-btn {
+    background-color: transparent;
+    color: #A9802A;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid #A9802A;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    margin: auto;
+}
+#signup-btn:hover, #order-online-button:hover{
+    background-color: #a2823a;
+    color: white;
+   
+}
+
+.store-locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.store-locations p{
+    /* display: inline; */
+    font-size: 13px;
+
+}
+
+.last-div-footer{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
