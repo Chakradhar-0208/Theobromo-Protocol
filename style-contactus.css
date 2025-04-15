@@ -71,7 +71,7 @@ main {
     margin-top: 115px; /* Match the height of the header */
 }
 
-
+/* 
 .contactus-main-container{
     display: flex;
     flex-direction: column;
@@ -83,7 +83,25 @@ main {
 }
 .post-contactus-main-container{
     display: flex;
+} */
+
+
+.contactus-main-container{
+    /* border:2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 0px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 7rem;
 }
+.post-contactus-main-container{
+    display: flex;
+    height:100%;
+    margin-bottom:10rem;
+}
+
 
 .contactus-main-container h2{
     color: #a2813a;
