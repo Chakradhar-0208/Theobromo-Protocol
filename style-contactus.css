@@ -67,23 +67,10 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position:  10% 100%;
-    height: 120vh;
+/*     height: 120vh; */
     margin-top: 115px; /* Match the height of the header */
 }
 
-/* 
-.contactus-main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0px 60px;
-    width: 80vw;
-    margin: auto;
-    margin-top: 115px;
-}
-.post-contactus-main-container{
-    display: flex;
-} */
 
 
 .contactus-main-container{
@@ -98,7 +85,7 @@ main {
 }
 .post-contactus-main-container{
     display: flex;
-    height:100%;
+/*     height:100%; */
     margin-bottom:10rem;
 }
 
